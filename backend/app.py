@@ -6,7 +6,7 @@ import traceback
 from notebook_code import run_multi_agent_query
 from notebook_code import memory
 
-# Load environment variables
+# Load environment variable
 load_dotenv()
 
 app = Flask(__name__)
